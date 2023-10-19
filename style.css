@@ -9,6 +9,8 @@ body{
     background: linear-gradient(106deg, #0E0D10 24.24%, #0E0D10 53.01%, #121216 75.95%);
 }
 
+/*--------------------------------------------------------------------------------------------------------*/
+/*Caixa Central*/
 #big_box{
     /*Esse position faz que a posição do objeto seja relativa com o seu ancestral mais próximo, ou do container inicial*/
     position: absolute;
@@ -24,6 +26,7 @@ body{
 
     display: flex;
     flex-direction: row;
+    gap: 36px;
 
     border-radius: 34px;
     background: #070709;
@@ -31,6 +34,12 @@ body{
 
     border: 2px dotted yellowgreen;
 }
+
+/*--------------------------------------------------------------------------------------------------------*/
+/*Login*/
+
+
+
 
 .teste{
     color: white;

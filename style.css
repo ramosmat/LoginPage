@@ -5,7 +5,8 @@
 }
 
 body{
-    background-color: rgba(0, 0, 0, 0.8);
+    /*!!!!!!!!Cor gradiente!!!!!!!!!! Aparentemente só funciona com a tag img no html*/
+    background: linear-gradient(106deg, #0E0D10 24.24%, #0E0D10 53.01%, #121216 75.95%);
 }
 
 #big_box{
@@ -13,8 +14,21 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-
     transform: translate(-50%, -50%);
 
+    /* width: 1106px;
+    height: 654px; */
+    
+    width: 500px;
+    height: 250px;
+
+    border-radius: 34px;
+    background: #070709;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.01);
+
     border: 2px dotted yellowgreen;
+}
+
+.class{
+
 }

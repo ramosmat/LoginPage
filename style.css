@@ -12,17 +12,18 @@ body{
 /*--------------------------------------------------------------------------------------------------------*/
 /*Caixa Central*/
 #big_box{
-    /*Esse position faz que a posição do objeto seja relativa com o seu ancestral mais próximo, ou do container inicial*/
+    /*Esse position faz que a posição do objeto seja relativa com o seu ancestral mais próximo, ou do container inicial
+    Neste caso fiz para que ele sempre se posicione no meio da tela*/
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 
-    /* width: 1106px;
-    height: 654px; */
+    width: 1106px;
+    height: 654px;
     
-    width: 600px;
-    height: 450px;
+    /* width: 600px;
+    height: 450px; */
 
     display: flex;
     flex-direction: row;
@@ -36,12 +37,56 @@ body{
 }
 
 /*--------------------------------------------------------------------------------------------------------*/
-/*Login*/
-
-
-
-
-.teste{
+/*Caixa de Login*/
+.textos{
     color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+}
+
+#login{
+    margin-left: 59px;
+    border: 1px solid red;
+}
+
+#login h1{
+    font-size: 48px;
+    font-weight: 700;
+
+    margin: 79px 0 60px 0;
+
+    border: 1px dotted blue;
+}
+
+/*Texto Email*/
+#login h2{
+    font-size: 13.524px;
+    font-weight: 400;
+
+    border: 1px dotted white;
+}
+
+/*Form email*/
+#email{
+    width: 355px;
+    height: 54.94px;
+    padding: 0.85px;
+
+    border-radius: 14.369px;
+    background: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+
+#email div{
+
+    width: 353.31px;
+    height: 53.25px;
+
+    border-radius: 14.369px;
+    background: #111112;
+}
+
+/*--------------------------------------------------------------------------------------------------------*/
+/*Imagens*/
+#images{
     border: 1px solid red;
 }

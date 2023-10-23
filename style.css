@@ -58,19 +58,30 @@ body{
     border: 1px dotted blue;
 }
 
-/*Texto Email*/
 #login *{
     margin-left: 0.85px;
 }
+/*Texto Email e Senha*/
 
-#login h2{
+.mail_pass{
+    margin: 23.7px 0px 7.36px;
+
     font-size: 13.524px;
     font-weight: 400;
 
     border: 1px dotted white;
 }
 
-/*Form email*/
+/*Box Email e Senha*/
+.type_box div{
+    width: 352px;
+    height: 53.25px;
+
+    border-radius: 14.369px;
+    background: #111112;
+}
+
+/*Form email background*/
 #email{
     width: 355px;
     height: 54.94px;
@@ -80,16 +91,8 @@ body{
     background: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 }
 
-#email div{
-
-    width: 352px;
-    height: 53.25px;
-
-    border-radius: 14.369px;
-    background: #111112;
-}
-
-#email div form input{
+/*Email e senha forms inputs*/
+.forms input{
     width: 353.31px;
     height: 53.25px;
 

@@ -61,9 +61,10 @@ body{
 #login *{
     margin-left: 0.85px;
 }
-/*Texto Email e Senha*/
 
+/*Texto Email e Senha*/
 .mail_pass{
+    color: #9CA3AF;
     margin: 23.7px 0px 7.36px;
 
     font-size: 13.524px;

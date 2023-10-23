@@ -59,6 +59,10 @@ body{
 }
 
 /*Texto Email*/
+#login *{
+    margin-left: 0.85px;
+}
+
 #login h2{
     font-size: 13.524px;
     font-weight: 400;
@@ -78,11 +82,21 @@ body{
 
 #email div{
 
-    width: 353.31px;
+    width: 352px;
     height: 53.25px;
 
     border-radius: 14.369px;
     background: #111112;
+}
+
+#email div form input{
+    width: 353.31px;
+    height: 53.25px;
+
+    padding-left: 2px;
+
+    border: none;
+    background: none;
 }
 
 /*--------------------------------------------------------------------------------------------------------*/

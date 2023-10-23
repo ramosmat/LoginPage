@@ -103,6 +103,12 @@ body{
     background: none;
 }
 
+/*Esqueci minha senha text*/
+h4{
+    text-align: right;
+    text-decoration-line: underline;
+}
+
 /*--------------------------------------------------------------------------------------------------------*/
 /*Imagens*/
 #images{

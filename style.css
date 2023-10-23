@@ -46,7 +46,6 @@ body{
 
 #login{
     margin-left: 59px;
-    border: 1px solid red;
 }
 
 #login h1{
@@ -54,8 +53,6 @@ body{
     font-weight: 700;
 
     margin: 79px 0 60px 0;
-
-    border: 1px dotted blue;
 }
 
 #login *{
@@ -63,14 +60,12 @@ body{
 }
 
 /*Texto Email e Senha*/
-.mail_pass{
+.sub_text{
     color: #9CA3AF;
     margin: 23.7px 0px 7.36px;
 
     font-size: 13.524px;
     font-weight: 400;
-
-    border: 1px dotted white;
 }
 
 /*Box Email e Senha*/
@@ -113,7 +108,7 @@ h4{
 
 /*Box Entrar background*/
 #entrar{
-    margin-top: 35px;
+    margin: 35px 0 36px 0;
     width: 353.31px;
     height: 53px;
     padding: 0.85px;
@@ -142,6 +137,14 @@ h4{
     height: 53px;
 
     padding: 12px 0 15px 0;
+    cursor: pointer;
+}
+
+/*Ainad não tenho uma conta text*/
+h5{
+    text-align: center;
+    text-decoration-line: underline;
+
     cursor: pointer;
 }
 

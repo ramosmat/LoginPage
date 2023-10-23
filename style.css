@@ -111,9 +111,11 @@ h4{
     text-decoration-line: underline;
 }
 
+/*Box Entrar background*/
 #entrar{
+    margin-top: 35px;
     width: 353.31px;
-    height: 53.25px;
+    height: 53px;
     padding: 0.85px;
 
     border-radius: 14.369px;
@@ -121,28 +123,30 @@ h4{
     filter: blur(0px);
 }
 
+/*Box Entrar front*/
 #entrar div{
     width: 351.619px;
-    height: 53.25px;
+    height: 53px;
 
     border-radius: 14.369px;
     background: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 }
 
+/*Entrar texto*/
 #entrar p{
     text-align: center;
-    font-size: 23.184px;
+    font-size: 23px;
     font-weight: 700;
     line-height: normal;
 
-    padding-top: 15px;
-    width: 355px;
-    height: 54.94px;
+    height: 53px;
 
+    padding: 12px 0 15px 0;
+    cursor: pointer;
 }
 
 /*--------------------------------------------------------------------------------------------------------*/
 /*Imagens*/
 #images{
-    border: 1px solid red;
+    border: 1px solid green;
 }

@@ -82,7 +82,7 @@ body{
     background: #111112;
 }
 
-/*Form email background*/
+/*Box email background*/
 #email{
     width: 355px;
     height: 54.94px;
@@ -92,7 +92,7 @@ body{
     background: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 }
 
-/*Email e senha forms inputs*/
+/*Email e senha forms inputs placeholder text*/
 .forms input{
     width: 353.31px;
     height: 53.25px;
@@ -109,6 +109,36 @@ h4{
 
     text-align: right;
     text-decoration-line: underline;
+}
+
+#entrar{
+    width: 353.31px;
+    height: 53.25px;
+    padding: 0.85px;
+
+    border-radius: 14.369px;
+    background: linear-gradient(91deg, #855BDE 8.66%, #8D67DD 92.07%);
+    filter: blur(0px);
+}
+
+#entrar div{
+    width: 351.619px;
+    height: 53.25px;
+
+    border-radius: 14.369px;
+    background: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+
+#entrar p{
+    text-align: center;
+    font-size: 23.184px;
+    font-weight: 700;
+    line-height: normal;
+
+    padding-top: 15px;
+    width: 355px;
+    height: 54.94px;
+
 }
 
 /*--------------------------------------------------------------------------------------------------------*/

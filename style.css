@@ -105,6 +105,8 @@ body{
 
 /*Esqueci minha senha text*/
 h4{
+    cursor: pointer;
+
     text-align: right;
     text-decoration-line: underline;
 }

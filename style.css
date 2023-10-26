@@ -87,7 +87,8 @@ body{
 }
 
 /*Email e senha forms inputs placeholder text*/
-.forms input{
+input{
+    color: white;
     width: 353.31px;
     height: 53.25px;
 

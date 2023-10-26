@@ -10,14 +10,23 @@ body{
 }
 
 /*--------------------------------------------------------------------------------------------------------*/
+/*Main*/
+#main{
+    display: flex;
+    flex-direction: column;
+}
+
+/*--------------------------------------------------------------------------------------------------------*/
 /*Caixa Central*/
 #big_box{
     /*Esse position faz que a posição do objeto seja relativa com o seu ancestral mais próximo, ou do container inicial
     Neste caso fiz para que ele sempre se posicione no meio da tela*/
-    position: absolute;
+    /* position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+
+    
 
     width: 1106px;
     height: 654px;
@@ -155,4 +164,42 @@ h5{
     height: 652px;
 
     border-radius: 0px 34px 34px 0px;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------*/
+/*Social Links*/
+#social_links{
+    padding: 10px 24px 20px 24px;
+
+    box-sizing: border-box;
+    display: flex;
+
+    justify-content: center;
+
+    font-size: 30px;
+
+    margin: 24px 0 0;
+}
+
+#social_links a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+
+    transition: background 0.2s;
+    border-radius: 50%;
+
+    color: white;
+}
+
+#social_links a:hover{
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------*/
+/*Social Links*/
+footer{
+    text-align: center;
+    margin: 24px;
 }

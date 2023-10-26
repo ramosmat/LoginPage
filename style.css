@@ -12,8 +12,15 @@ body{
 /*--------------------------------------------------------------------------------------------------------*/
 /*Main*/
 #main{
-    display: flex;
-    flex-direction: column;
+    width: 100%;
+    max-width: 1106px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
 }
 
 /*--------------------------------------------------------------------------------------------------------*/
@@ -26,8 +33,6 @@ body{
     left: 50%;
     transform: translate(-50%, -50%); */
 
-    
-
     width: 1106px;
     height: 654px;
     
@@ -36,7 +41,7 @@ body{
 
     display: flex;
     flex-direction: row;
-    gap: 36px;
+    gap: 43px;
 
     border-radius: 34px;
     background: #070709;
@@ -71,6 +76,8 @@ body{
 .sub_text{
     color: #9CA3AF;
     margin: 23.7px 0px 7.36px;
+
+    text-align: left;
 
     font-size: 13.524px;
     font-weight: 400;
@@ -108,7 +115,13 @@ input{
 }
 
 /*Esqueci minha senha text*/
-h4{
+.h4h5{
+    color: #9CA3AF;
+    margin: 23.7px 0px 7.36px;
+
+    font-size: 13.524px;
+    font-weight: 400;
+
     cursor: pointer;
 
     text-align: right;
@@ -149,21 +162,13 @@ h4{
     cursor: pointer;
 }
 
-/*Ainad não tenho uma conta text*/
-h5{
-    text-align: center;
-    text-decoration-line: underline;
-
-    cursor: pointer;
-}
-
 /*--------------------------------------------------------------------------------------------------------*/
 /*Imagens*/
 #image img{
-    width: 705px;
-    height: 652px;
+    width: 665px;
+    height: 654px;
 
-    border-radius: 0px 34px 34px 0px;
+    /* border-radius: 0px 34px 34px 0px; */
 }
 
 /*-----------------------------------------------------------------------------------------------------------------------*/

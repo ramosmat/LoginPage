@@ -137,6 +137,8 @@ input{
 
     border-radius: 14.369px;
     background: linear-gradient(91deg, #855BDE 8.66%, #8D67DD 92.07%);
+
+    box-shadow: 0px 0px 25px 2px rgba(114, 85, 179, 0.75);
     filter: blur(0px);
 }
 

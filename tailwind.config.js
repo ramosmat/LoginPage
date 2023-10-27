@@ -6,11 +6,3 @@ module.exports = {
   },
   plugins: [],
 }
-
-module.exports = {
-  content: ["./src/**/*.{html,js}"],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-}

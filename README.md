@@ -1,5 +1,3 @@
-(Por enquanto sem tailwind, estou fazendo tudo da forma que aprendi primeiro haha)
-
 # [💻 A tela de login mais bonita do mundo com Tailwind CSS](https://codante.io/mini-projetos/mp-tela-login-tailwind)
 
 Você foi contratado por uma empresa de desenvolvimento de software para criar a tela de login mais bonita do mundo usando o framework Tailwind CSS. A empresa deseja proporcionar uma experiência visualmente agradável aos usuários ao fazerem login em seus sistemas.

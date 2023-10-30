@@ -12,9 +12,9 @@
         <link rel="stylesheet" href="css/fonts.css">
     </head>
     
-    <body class="flex items-center justify-center w-screen h-screen bg-gradient-to-br from-slate-950 to-slate-900">
+    <body class="flex items-center justify-center w-screen h-screen bg-gradient-to-br from-slate-900 to-slate-800">
         <section class="w-[100%] max-w-[1100px] h-[650px] bg-gray-950 rounded-3xl flex gap-[86px]">
-            <section id="login" class="ml-[60px] border-solid border-[1px] border-emerald-600">
+            <section id="login" class="ml-[60px] mt-[80px]">
                 <h1 class="font-sans text-3xl text-white">
                     Faça seu login
                 </h1>
@@ -23,12 +23,18 @@
                     Email
                 </p>
 
-                <div class="mt-[8px] p-[1px] w-[355px] h-[55px] rounded-[15px] bg-gradient-to-r from-[#4158D0] from-0% via-[#c850c0] via-46% to-[#FFCC70] to-100%">
+                <div 
+                class="mt-[8px] p-[1px] w-[355px] h-[55px] rounded-[15px] 
+                bg-gradient-to-r from-[#4158D0] from-0% via-[#c850c0] via-46% to-[#FFCC70] to-100% 
+                shadow-md shadow-emerald-500">
+
                     <div class="w-[353px] h-[53px] rounded-[15px] bg-black">
                         <form action="">
-                            <input type="text" class="text-white bg-black">
+                            <input type="email" name="email" placeholder="Insira seu email"
+                            class="text-white bg-black w-[352px] h-[52px] pl-2 rounded-[15px]">
                         </form>
                     </div>
+
                 </div>
             </section>
 
@@ -40,4 +46,3 @@
         </section>
     </body>
 </html>
-

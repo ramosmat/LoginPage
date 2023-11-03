@@ -12,65 +12,69 @@
         <link rel="stylesheet" href="css/fonts.css">
     </head>
     
-    <body class="flex items-center justify-center w-screen h-screen bg-gradient-to-br from-slate-900 to-slate-800">
-        <section class="w-[100%] max-w-[1100px] h-[650px] bg-gray-950 rounded-3xl flex gap-[86px]">
+    <body class="flex items-center justify-center w-screen h-screen bg-gradient-to-br from-slate-800 to-slate-700">
+        <section class="w-[100%] max-w-[1100px] h-[650px] bg-gray-900 rounded-3xl flex gap-[86px]">
             <section id="login" class="ml-[60px] mt-[80px]">
                 <h1 class="font-sans text-3xl text-white mb-[60px]">
                     Faça seu login
                     
                     <span class="inline-block rounded-full w-[10px] h-[10px] bg-gradient-to-tr from-[#4158D0] via-[#C850C0] via-46% to-[#FFCC70]"></span>
                 </h1>
-                
-                <label class="group font-sans text-[13.524px] text-gray-400 font-normal">
-                    Email
-                    
-                    <div
-                    class="transition-opacity ease-in opacity-0 group-focus-within:opacity-100 h-[55px] w-[355px] mt-[6px]
-                    bg-gradient-to-tr from-[#4158D0] via-[#C850C0] via-46% to-[#FFCC70] rounded-lg blur-sm">
-                    </div>
+                <form action="" class="flex flex-col gap-10">
 
-                    <div 
-                    class="relative -top-[55px] w-[355px] h-[55px] rounded-[15px] bg-none
-                    focus-within:bg-gradient-to-r from-[#4158D0] from-0% via-[#c850c0] via-46% to-[#FFCC70] to-100%">
-
-                    <form action="" class="p-[1px]">
+                    <label id="email" class="group h-16 font-sans text-[13.524px] text-gray-400 font-normal">
+                        <p>Email</p>
+                        <div
+                        class="transition-opacity ease-in opacity-0 group-focus-within:opacity-100 h-[55px] w-[355px] mt-[6px]
+                        bg-gradient-to-tr from-[#4158D0] via-[#C850C0] via-46% to-[#FFCC70] rounded-lg blur-md">
+                        </div>
+                        <!-- -top-[55px] -->
+                        <div 
+                        class="relative -top-[55px] w-[355px] h-[55px] rounded-[15px] bg-none
+                        focus-within:bg-gradient-to-r from-[#4158D0] from-0% via-[#c850c0] via-46% to-[#FFCC70] to-100%">
                         <input type="email" name="email" placeholder="Insira seu email"
                         class="text-white bg-black w-[353px] h-[53px] pl-2 rounded-[15px]
-                        outline-none appearance-none">
-                    </form>
+                        outline-none appearance-none m-px">
+                        </div>
+                    </label>
 
-                    </div>
-            </label>
-                
-                <p class="font-sans text-[13.524px] text-gray-400 font-normal -mt-[30px]">
-                    Senha
-                </p>
+                    <label id="senha" class="group h-16 font-sans text-[13.524px] text-gray-400 font-normal">
+                        <p>Senha</p>
 
-                <div class="mt-[6px] w-[353px] h-[53px] rounded-[15px] bg-black">
-                    <form action="">
+                        <div
+                        class="transition-opacity ease-in opacity-0 group-focus-within:opacity-100 h-[55px] w-[355px] mt-[6px]
+                        bg-gradient-to-tr from-[#4158D0] via-[#C850C0] via-46% to-[#FFCC70] rounded-lg blur-md">
+                        </div>
+
+                        <div class="relative -top-[55px] w-[355px] h-[55px] rounded-[15px] bg-none
+                        focus-within:bg-gradient-to-r from-[#4158D0] from-0% via-[#c850c0] via-46% to-[#FFCC70] to-100%">
+
                         <input type="password" name="senha" placeholder="Insira sua senha"
-                        class="text-white bg-black w-[352px] h-[52px] pl-2 rounded-[15px] outline-none appearance-none">
-                    </form>
-                </div>
+                        class="text-white bg-black w-[353px] h-[53px] pl-2 rounded-[15px]
+                        outline-none appearance-none m-px">
 
-                <p class="font-sans text-[13.524px] text-gray-400 font-normal mt-[20px] text-right underline cursor-pointer">
-                    Esqueci minha senha
-                </p>
+                        </div>
+                    </label>
 
-                <div
-                class="mt-[35px] w-[355px] h-[55px] rounded-[15px] 
-                bg-gradient-to-r from-[#4158D0] from-0% via-[#c850c0] via-46% to-[#FFCC70] to-100%
-                flex justify-center items-center text-center cursor-pointer">
+                    <p class="font-sans text-[13.524px] text-gray-400 font-normal text-right underline cursor-pointer">
+                        Esqueci minha senha
+                    </p>
+
+                    <div
+                    class="w-[355px] h-[55px] rounded-[15px] 
+                    bg-gradient-to-r from-[#4158D0] from-0% via-[#c850c0] via-46% to-[#FFCC70] to-100%
+                    flex justify-center items-center text-center cursor-pointer">
 
                     <p class="font-sans text-3xl text-center text-white">
                         Entrar
                     </p>
 
-                </div>
+                    </div>
 
-                <p class="font-sans text-[13.524px] text-gray-400 font-normal mt-[35px] text-center underline cursor-pointer">
-                    Ainda não tenho uma conta
-                </p>
+                    <p class="font-sans text-[13.524px] text-gray-400 font-normal text-center underline cursor-pointer">
+                        Ainda não tenho uma conta
+                    </p>
+                </form>
 
             </section>
 

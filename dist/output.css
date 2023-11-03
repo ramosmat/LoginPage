@@ -850,6 +850,14 @@ video {
   width: 100vw;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-7\/12 {
+  width: 58.333333%;
+}
+
 .max-w-\[1100px\] {
   max-width: 1100px;
 }
@@ -868,6 +876,14 @@ video {
 
 .grow {
   flex-grow: 1;
+}
+
+.basis-5\/12 {
+  flex-basis: 41.666667%;
+}
+
+.basis-7\/12 {
+  flex-basis: 58.333333%;
 }
 
 .table-auto {
@@ -1694,6 +1710,10 @@ video {
   border-radius: 0.5rem;
 }
 
+.rounded-\[34px\] {
+  border-radius: 34px;
+}
+
 .rounded-b {
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
@@ -1862,6 +1882,10 @@ video {
   background-image: none;
 }
 
+.bg-\[url\(\'\/home\/ramosmat\/dev\/LoginPage\/img\/bgsky\.jpg\'\)\] {
+  background-image: url('/home/ramosmat/dev/LoginPage/img/bgsky.jpg');
+}
+
 .from-\[\#4158D0\] {
   --tw-gradient-from: #4158D0 var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(65 88 208 / 0) var(--tw-gradient-to-position);
@@ -1871,6 +1895,12 @@ video {
 .from-slate-800 {
   --tw-gradient-from: #1e293b var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(30 41 59 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-black {
+  --tw-gradient-from: #000 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(0 0 0 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
@@ -1896,6 +1926,10 @@ video {
   --tw-gradient-to: #334155 var(--tw-gradient-to-position);
 }
 
+.to-\[bg-\[url\(\'\/img\/bgsky\.jpg\'\)\]\] {
+  --tw-gradient-to: bg-[url('/img/bgsky.jpg')] var(--tw-gradient-to-position);
+}
+
 .to-100\% {
   --tw-gradient-to-position: 100%;
 }
@@ -1918,6 +1952,10 @@ video {
 .box-decoration-clone {
   -webkit-box-decoration-break: clone;
           box-decoration-break: clone;
+}
+
+.bg-cover {
+  background-size: cover;
 }
 
 .bg-fixed {

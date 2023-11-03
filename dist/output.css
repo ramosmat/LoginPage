@@ -1870,6 +1870,14 @@ video {
   background-image: url('/img/bgforestbig.jpg');
 }
 
+.bg-\[url\(\'\/img\/bgforestmid\.jpg\'\)\] {
+  background-image: url('/img/bgforestmid.jpg');
+}
+
+.bg-\[url\(\'\/img\/bgforestsmall\.jpg\'\)\] {
+  background-image: url('/img/bgforestsmall.jpg');
+}
+
 .from-\[\#4158D0\] {
   --tw-gradient-from: #4158D0 var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(65 88 208 / 0) var(--tw-gradient-to-position);

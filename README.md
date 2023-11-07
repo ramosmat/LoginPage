@@ -1,3 +1,5 @@
+Você pode ver como ficou o projeto cno link: https://login-page-eight-hazel.vercel.app, tive que hospedar pelo Vercel porque o github nao estava aceitando a imagem que escolhi :D
+
 # [💻 A tela de login mais bonita do mundo com Tailwind CSS](https://codante.io/mini-projetos/mp-tela-login-tailwind)
 
 Você foi contratado por uma empresa de desenvolvimento de software para criar a tela de login mais bonita do mundo usando o framework Tailwind CSS. A empresa deseja proporcionar uma experiência visualmente agradável aos usuários ao fazerem login em seus sistemas.

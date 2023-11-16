@@ -10,9 +10,15 @@
     
         <link rel="stylesheet" href="dist/output.css">
         <link rel="stylesheet" href="css/fonts.css">
+
+        <script src="./index.js"></script>
     </head>
     
     <body class="flex items-center justify-center w-screen h-screen bg-gradient-to-br from-slate-800 to-slate-700">
+        <section id="notification-section" class="absolute top-0 right-0 mr-2">
+
+        </section>
+        
         <section id="form" class="flex w-5/6 bg-gray-900 md:w-3/5 rounded-3xl">
             <section id="login" class="mx-[60px] mt-[80px] mb-[30px] basis-full lg:basis-5/12">
                 <h1 class="font-sans text-3xl text-white mb-[60px]">
@@ -56,11 +62,11 @@
                         </div>
                     </label>
 
-                    <p class="w-full font-sans text-[13.524px] text-gray-400 font-normal text-right underline cursor-pointer">
+                    <p id="button-forget" class="cursor-pointer w-full font-sans text-[13.524px] text-gray-400 font-normal text-right underline">
                         Esqueci minha senha
                     </p>
 
-                    <div
+                    <div id="button-login" 
                     class="w-full h-[55px] rounded-[15px] 
                     bg-gradient-to-r from-[#4158D0] from-0% via-[#c850c0] via-46% to-[#FFCC70] to-100%
                     flex justify-center items-center text-center cursor-pointer">
@@ -114,6 +120,44 @@
             opacity-100">
             </section>
         </section>
+
+        <template id="dialog-forget">
+            <dialog open
+            class="relative flex items-center gap-4 p-0 mt-0 overflow-hidden text-gray-200 transition-all duration-700 bg-gray-900 shadow-lg opacity-0 w-[300px] animate-notification open:p-2 open:mt-3 open:max-h-20 max-h-0 rounded-2xl open:translate-x-0 translate-x-96 open:opacity-100">
+                <section class="flex items-center gap-4">
+                    <div class="rounded-full bg-slate-900">
+                        <img 
+                        src="https://i.pravatar.cc/56" 
+                        alt="user avatar"
+                        class="rounded-full w-14 h-14">
+                    </div>
+
+                    <div class="w-52">
+                        <h3 class="font-semibold">Matheus Ramos</h3>
+                        <p class="overflow-hidden text-sm line-clamp-2 text-ellipsis">Só não esquece de ver as redes sociais! 😆</p>
+                    </div>
+                </section>
+            </dialog>
+        </template>
+
+        <template id="dialog-login">
+            <dialog open
+            class="relative flex items-center gap-4 p-0 mt-0 overflow-hidden text-gray-200 transition-all duration-700 bg-gray-900 shadow-lg opacity-0 w-[300px] animate-notification open:p-2 open:mt-3 open:max-h-20 max-h-0 rounded-2xl open:translate-x-0 translate-x-96 open:opacity-100">
+                <section class="flex items-center gap-4">
+                    <div class="rounded-full bg-slate-900">
+                        <img 
+                        src="https://i.pravatar.cc/56" 
+                        alt="user avatar"
+                        class="rounded-full w-14 h-14">
+                    </div>
+
+                    <div class="max-w-52">
+                        <h3 class="font-semibold">Matheus Ramos</h3>
+                        <p class="overflow-hidden text-sm line-clamp-2 text-ellipsis">Entrou!</p>
+                    </div>
+                </section>
+            </dialog>
+        </template>
 
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>

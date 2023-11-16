@@ -66,6 +66,7 @@ window.onload = () => {
         })
 
         notificationSection.appendChild(newNotificationLogin)
+        notificationSound.play()
 
         setTimeout(() => {
             const dialogLoginToClose = document.getElementById(notificationIdLogin)
